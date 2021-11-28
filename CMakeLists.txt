@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
 add_message_files(
   FILES
   motor_msgs.msg
+  pid_msgs.msg
 )
 
 # add_service_files(

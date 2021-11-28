@@ -1,3 +1,3 @@
 string mode
-uint8 rpm1
-uint8 rpm2
+float64 pwm1
+float64 pwm2
