@@ -14,11 +14,12 @@ add_message_files(
   pid_msgs.msg
 )
 
-# add_service_files(
-#   FILES
-#   Service1.srv
-#   Service2.srv
-# )
+add_service_files(
+  FILES
+  dispenser.srv
+  door.srv
+  tilt.srv
+)
 
 generate_messages(
   DEPENDENCIES
